@@ -2,7 +2,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import React from 'react'
 import { Destaque } from './style'
 import Buttom from "../buttom"
-import Container from "../container"
+import Container from "../Container"
 
 export default function Header() {
     const img = useStaticQuery(graphql`

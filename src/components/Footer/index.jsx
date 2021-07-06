@@ -1,6 +1,6 @@
 import React from 'react'
 import { Footer } from './style'
-import Container from '../container'
+import Container from '../Container'
 import { FaLinkedin, FaGithub, FaInstagram, FaGoogle } from 'react-icons/fa'; 
 import Back from '../background';
 
