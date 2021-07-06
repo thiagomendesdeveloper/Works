@@ -4,7 +4,7 @@ import { Form } from './style'
 export default function(){
     return(
         <Form>
-            <form action="" netlify>
+            <form name="contact" method="POST" data-netlify="true">
                 <h3>Nome completo</h3>
                 <input name="nome" type="text" placeholder="Nome completo"/>
                 <h3>Email</h3>
