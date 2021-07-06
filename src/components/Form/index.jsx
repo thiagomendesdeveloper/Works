@@ -5,15 +5,24 @@ export default function(){
     return(
         <Form>
             <form name="contact" method="POST" data-netlify="true">
-                <h3>Nome completo</h3>
-                <input name="nome" type="text" placeholder="Nome completo"/>
-                <h3>Email</h3>
-                <input name="email" type="email" placeholder="Email"/>
-                {/* <h3>Telefone/whatsapp</h3>
-                <input name="telefone" type="text" placeholder="Telefone/whatsapp" /><br/> */}
-                <h3>Mensagem</h3>
-                <textarea name="message" cols="30" rows="10" placeholder="Digite Sua Mensagem"></textarea>
-                <input type="submit" value="Enviar" />
+                    <p>
+                        <label>Your Name: <input type="text" name="name" /></label>   
+                    </p>
+                    <p>
+                        <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                        <label>Your Role: <select name="role[]" multiple>
+                        <option value="leader">Leader</option>
+                        <option value="follower">Follower</option>
+                        </select></label>
+                    </p>
+                    <p>
+                        <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
             </form>
         </Form>
     )
