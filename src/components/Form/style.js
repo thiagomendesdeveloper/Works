@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Form = styled.div`
+export const Form = styled.form`
     line-height: 2.7em;
     width: 100%;
     font-size: 1.2em;

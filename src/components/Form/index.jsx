@@ -3,22 +3,19 @@ import { Form } from './style'
 
 export default function(){
     return(
-        <Form>
-            <form name="contact" method="POST" data-netlify="true">
-                    <p>
-                        <label>Your Name: <input type="text" name="name" /></label>   
-                    </p>
-                    <p>
-                        <label>Your Email: <input type="email" name="email" /></label>
-                    </p>
+        
+            <Form name="contact" method="POST" data-netlify="true">
+                    <h2>Nome</h2>
+                    <input type="text" name="name" /> 
+                    <h2>Email</h2>
+                    <input type="email" name="email" />
+                    <h2>Telefone</h2>
+                    <input type="text" name="telefone" />
+                    <h2>Mensagem</h2>
+                    <textarea name="mensagem" cols="30" rows="10"></textarea>
                     <input type="hidden" name="form-name" value="contact"></input>
-                    <p>
-                        <label>Message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                        <button type="submit">Send</button>
-                    </p>
-            </form>
-        </Form>
+                    <button type="submit">Enviar</button>
+            </Form>
+        
     )
 }
