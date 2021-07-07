@@ -4,7 +4,7 @@ import { Destaque } from './style'
 import Buttom from "../Buttom"
 import Container from "../Container"
 
-export default function Header() {
+export default function destaque() {
     const img = useStaticQuery(graphql`
     query images {
         file(relativePath: {eq: "foto.jpg"}) {
@@ -35,4 +35,4 @@ export default function Header() {
         </Destaque>
       </Container>
     )
-  }
+}

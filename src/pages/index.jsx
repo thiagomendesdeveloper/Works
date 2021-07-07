@@ -1,7 +1,7 @@
 import React from "react"
 import Menu from "../components/Menu"
 import { Helmet } from "react-helmet"
-import Destaquea from "../components/Destaque/index";
+import Destaque from "../components/Destaque";
 import Section from "../components/Section"
 import Global from "../styles/global"
 import Title from "../components/Title"
@@ -12,7 +12,7 @@ import ProgressBar from "../components/ProgressBar"
 import AlignBar from "../components/AlignBar"
 import Responsive from "../images/responsivo.png"
 import Text from "../components/Text"
-import Img from "../components/Img"
+import Image from "../components/Img"
 import Form from "../components/Form"
 import Footer from "../components/Footer"
 
@@ -25,7 +25,7 @@ export default function Home() {
       </Helmet>
       <Global />
       <Menu />
-      <Destaquea />
+      <Destaque />
       {/* <Post /> */}
       <Section>
         <Title title="Serviços" align='center'></Title>
@@ -45,9 +45,9 @@ export default function Home() {
             <Title align='left' title="Sites Responsivos"></Title>
             <p>Tenha seu site em mãos totalmente adaptáveis para celular, tablet e desktop</p>
           </Text>
-          <Img>
-            <img src={Responsive} alt="" />
-          </Img>
+          <Image>
+            <a src={Responsive} alt="" />
+          </Image>
         </Container>
       </Section>
 
