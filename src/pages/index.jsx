@@ -46,7 +46,7 @@ export default function Home() {
             <p>Tenha seu site em mãos totalmente adaptáveis para celular, tablet e desktop</p>
           </Text>
           <Image>
-            <a src={Responsive} alt="" />
+            <img src={Responsive} alt="" />
           </Image>
         </Container>
       </Section>

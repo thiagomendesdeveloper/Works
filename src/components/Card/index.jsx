@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Div } from './style'
-import Buttom from '../Buttom'
+import Teste from '../Buttom'
 
 export default function card(props){
     return(
@@ -10,7 +10,7 @@ export default function card(props){
             <article>
                 <p>{props.desc}</p>
             </article>
-            <Buttom link="/#" text="Saiba Mais"/>
+            <Teste link="/#" text="Saiba Mais"/>
         </Card>
     )
 }
