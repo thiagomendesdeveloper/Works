@@ -1,7 +1,7 @@
 import React from "react"
 import Menu from "../components/Menu"
 import { Helmet } from "react-helmet"
-import Destaque from "../components/Destaque";
+import BannerMain from "../components/BannerMain";
 import Section from "../components/Section"
 import Global from "../styles/global"
 import Title from "../components/Title"
@@ -25,7 +25,7 @@ export default function Home() {
       </Helmet>
       <Global />
       <Menu />
-      <Destaque />
+      <BannerMain />
       {/* <Post /> */}
       <Section>
         <Title title="Serviços" align='center'></Title>

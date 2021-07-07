@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Destaque = styled.div`
+export const BannerMain = styled.div`
 
     width:100%;
     min-height: 550px;
