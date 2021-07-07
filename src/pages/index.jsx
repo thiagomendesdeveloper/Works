@@ -6,7 +6,7 @@ import Section from "../components/Section"
 import Global from "../styles/global"
 import Title from "../components/Title"
 import Card from "../components/Card"
-import { FaRegFileAlt, FaDesktop, FaPager, FaBloggerB } from 'react-icons/fa';
+import { FaRegFileAlt, FaDesktop, FaPager } from 'react-icons/fa';
 import Container from "../components/Container"
 import ProgressBar from "../components/ProgressBar"
 import AlignBar from "../components/AlignBar"

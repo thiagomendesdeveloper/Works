@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Destaque = styled.div`
 
     width:100%;
-    height:70vh;
+    min-height: 550px;
     background:#1B1B1B;
     text-align:center;
     display:flex;
