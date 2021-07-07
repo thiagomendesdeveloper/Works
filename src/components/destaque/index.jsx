@@ -33,6 +33,6 @@ export default function Header() {
                 <Buttom text="Saiba Mais" link="/#"/>
             </hgroup>
         </Destaque>
-        </Container>
+      </Container>
     )
   }

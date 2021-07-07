@@ -2,7 +2,7 @@ import React from 'react'
 import { Pgress, List } from "./style"
 
 
-export default function(props){
+export default function progress(props){
     return(
         <List>
             <h4>{props.item}</h4>

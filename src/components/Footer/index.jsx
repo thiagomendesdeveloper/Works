@@ -3,7 +3,7 @@ import { Footer } from './style'
 import Container from '../Container'
 import { FaLinkedin, FaGithub, FaInstagram, FaGoogle } from 'react-icons/fa'; 
 
-export default function(){
+export default function footer(){
     return(
         <Footer>
             <Container direction="row">
