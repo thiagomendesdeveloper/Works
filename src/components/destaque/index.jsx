@@ -1,5 +1,5 @@
-import { useStaticQuery, graphql } from "gatsby"
 import React from 'react'
+import { useStaticQuery, graphql } from "gatsby"
 import { Destaque } from './style'
 import Buttom from "../Buttom"
 import Container from "../Container"
