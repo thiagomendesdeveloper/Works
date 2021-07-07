@@ -31,7 +31,7 @@ export default function Home() {
         <Title title="Serviços" align='center'></Title>
         <Container direction='row'>
           <Card title="Landing pages" 
-          desc="Sites com uma página, geralmente apresentando algum tipo de conteudo da empresa"><FaRegFileAlt /></Card>
+          desc="Sites Com uma página, geralmente apresentando algum tipo de conteudo da empresa"><FaRegFileAlt /></Card>
           <Card title="Desenvolvimento Web"
           desc="Sites com uma página, geralmente apresentando algum tipo de conteudo da empresa"><FaDesktop /></Card>
           <Card title="Hotsites"
