@@ -6,7 +6,7 @@ import Container from '../components/Container'
 import Section from '../components/Section'
 import Footer from '../components/Footer'
 import notFount from '../images/404.png'
-import Img from '../components/Img'
+import Image from '../components/Image'
 
 export default function teste(){
     return(
@@ -16,7 +16,7 @@ export default function teste(){
         <Section>
             <Container direction="row">
                 <TItle title="404 - Essa página não existe!"></TItle>
-                <Img><img src={notFount} alt="" /></Img>
+                <Image><img src={notFount} alt="" /></Image>
             </Container>
         </Section>
         <Footer />  

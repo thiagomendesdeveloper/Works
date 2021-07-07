@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Img = styled.div`
+export const Image= styled.div`
 
     img{
         width: 100%;

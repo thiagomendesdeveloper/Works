@@ -12,7 +12,7 @@ import ProgressBar from "../components/ProgressBar"
 import AlignBar from "../components/AlignBar"
 import Responsive from "../images/responsivo.png"
 import Text from "../components/Text"
-import Image from "../components/Img"
+import Image from "../components/Image"
 import Form from "../components/Form"
 import Footer from "../components/Footer"
 

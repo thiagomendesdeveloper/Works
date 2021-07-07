@@ -1,10 +1,10 @@
 import React from 'react'
-import { Img } from './style'
+import { Image } from './style'
 
 export default function image(props) {
     return(
-        <Img>
+        <Image>
             {props.children}
-        </Img>
+        </Image>
     )
 }
