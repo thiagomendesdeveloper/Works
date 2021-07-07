@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Div } from './style'
-import Buttom from '../buttom'
+import Buttom from '../Buttom'
 
 export default function card(props){
     return(

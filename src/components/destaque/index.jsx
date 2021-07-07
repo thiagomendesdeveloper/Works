@@ -1,31 +1,33 @@
 import React from 'react'
-import { useStaticQuery, graphql } from "gatsby"
+// import { useStaticQuery, graphql } from "gatsby"
 import { Destaque } from './style'
 import Buttom from "../Buttom"
 import Container from "../Container"
+import thumbfoto from "../../images/foto.jpg"
 
 export default function destaque() {
-    const img = useStaticQuery(graphql`
-    query images {
-        file(relativePath: {eq: "foto.jpg"}) {
-          id
-          childImageSharp {
-            fluid(maxWidth: 400) {
-              base64
-              tracedSVG
-              srcWebp
-              srcSetWebp
-              originalImg
-              originalName
-            }
-          }
-        }
-      }
-    `)
+    // const thumb = useStaticQuery(graphql`
+    // query images {
+    //     file(relativePath: {eq: "foto.jpg"}) {
+    //       id
+    //       childImageSharp {
+    //         fluid(maxWidth: 400) {
+    //           base64
+    //           tracedSVG
+    //           srcWebp
+    //           srcSetWebp
+    //           originalImg
+    //           originalName
+    //         }
+    //       }
+    //     }
+    //   }
+    // `)
     return(
       <Container>
         <Destaque>
-            <img src={img.file.childImageSharp.fluid.srcWebp} alt="" />
+            {/* <img src={thumb.file.childImageSharp.fluid.srcWebp} alt="" /> */}
+            <img src={thumbfoto} alt="" />
             <hgroup>
                 <h1>Desenvolvedor Web</h1>
                 <hr/>
