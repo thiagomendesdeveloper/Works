@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Text = styled.div`
+export const Grouptext = styled.div`
     width:100%;
     text-align: left;
 

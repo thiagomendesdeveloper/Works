@@ -11,7 +11,7 @@ import Container from "../components/Container"
 import ProgressBar from "../components/ProgressBar"
 import AlignBar from "../components/AlignBar"
 import Responsive from "../images/responsivo.png"
-import Text from "../components/Text"
+import Grouptext from "../components/Grouptext"
 import Image from "../components/Image"
 import Form from "../components/Form"
 import Footer from "../components/Footer"
@@ -41,10 +41,10 @@ export default function Home() {
 
       <Section>
         <Container jcontent="column" direction='row'>
-          <Text>
+          <Grouptext>
             <Title align='left' title="Sites Responsivos"></Title>
             <p>Tenha seu site em mãos totalmente adaptáveis para celular, tablet e desktop</p>
-          </Text>
+          </Grouptext>
           <Image>
             <img src={Responsive} alt="" />
           </Image>
@@ -54,10 +54,10 @@ export default function Home() {
       <Section>
       <Container jcontent="column-reverse" direction='row'>
           <Form />
-          <Text>
+          <Grouptext>
             <Title align='left' title="Fale seu problema"></Title>
             <p>Entre em contato e tire suas dúvidas, faça orçamentos ou entenda melhor como funciona nossos serviços</p>
-          </Text>
+          </Grouptext>
         </Container>
       </Section>
 

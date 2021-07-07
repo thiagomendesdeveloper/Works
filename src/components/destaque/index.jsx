@@ -1,7 +1,7 @@
 import React from 'react'
 // import { useStaticQuery, graphql } from "gatsby"
 import { Destaque } from './style'
-import Buttom from "../Buttom"
+import SmallButom from "../SmallButom"
 import Container from "../Container"
 import thumbfoto from "../../images/foto.jpg"
 
@@ -32,7 +32,7 @@ export default function destaque() {
                 <h1>Desenvolvedor Web</h1>
                 <hr/>
                 <h2>Seu site profissional com as melhores ferramentas e tecnologias do mercado </h2>
-                <Buttom text="Saiba Mais" link="/#"/>
+                <SmallButom text="Saiba Mais" link="/#"/>
             </hgroup>
         </Destaque>
       </Container>

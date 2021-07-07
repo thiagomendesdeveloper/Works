@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Div } from './style'
-import Teste from '../Buttom'
+import SmallButom from '../SmallButom'
 
 export default function card(props){
     return(
@@ -10,7 +10,7 @@ export default function card(props){
             <article>
                 <p>{props.desc}</p>
             </article>
-            <Teste link="/#" text="Saiba Mais"/>
+            <SmallButom link="/#" text="Saiba Mais"/>
         </Card>
     )
 }

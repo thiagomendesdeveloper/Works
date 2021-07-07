@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Buttom = styled.button`
+export const SmallButom = styled.button`
     background:none;
     border:none;
     background: linear-gradient(45deg, #E41F89, #b95cb4);
