@@ -1,8 +1,8 @@
 import React from "react"
 import Menu from "../components/Menu"
 import { Helmet } from "react-helmet"
-import Destaque from "../components/destaque"
-import Back from "../components/background"
+import Destaque from "../components/Destaque"
+import Section from "../components/Section"
 import Global from "../styles/global"
 import Title from "../components/Title"
 import Card from "../components/Card"
@@ -11,8 +11,8 @@ import Container from "../components/Container"
 import ProgressBar from "../components/ProgressBar"
 import AlignBar from "../components/AlignBar"
 import Responsive from "../images/responsivo.png"
-import Text from "../components/text"
-import Img from "../components/img"
+import Text from "../components/Text"
+import Img from "../components/Img"
 import Form from "../components/Form"
 import Footer from "../components/Footer"
 
@@ -24,11 +24,10 @@ export default function Home() {
         <title>Home</title>
       </Helmet>
       <Global />
-      <Menu>
-      </Menu>
+      <Menu />
       <Destaque />
       {/* <Post /> */}
-      <Back>
+      <Section>
         <Title title="Serviços" align='center'></Title>
         <Container direction='row'>
           <Card title="Landing pages" 
@@ -37,13 +36,11 @@ export default function Home() {
           desc="Sites com uma página, geralmente apresentando algum tipo de conteudo da empresa"><FaDesktop /></Card>
           <Card title="Hotsites"
           desc="Sites com uma página, geralmente apresentando algum tipo de conteudo da empresa"><FaPager /></Card>
-          {/* <Card title="Blogs"
-          desc="Sites com uma página, geralmente apresentando algum tipo de conteudo da empresa"><FaBloggerB /></Card> */}
         </Container>
-      </Back>
+      </Section>
 
-      <Back>
-        <Container direction='row'>
+      <Section>
+        <Container jcontent="column" direction='row'>
           <Text>
             <Title align='left' title="Sites Responsivos"></Title>
             <p>Tenha seu site em mãos totalmente adaptáveis para celular, tablet e desktop</p>
@@ -52,19 +49,19 @@ export default function Home() {
             <img src={Responsive} alt="" />
           </Img>
         </Container>
-      </Back>
+      </Section>
 
-      <Back>
-      <Container direction='row'>
+      <Section>
+      <Container jcontent="column-reverse" direction='row'>
           <Form />
           <Text>
             <Title align='left' title="Fale seu problema"></Title>
             <p>Entre em contato e tire suas dúvidas, faça orçamentos ou entenda melhor como funciona nossos serviços</p>
           </Text>
         </Container>
-      </Back>
+      </Section>
 
-      <Back>
+      <Section>
         <Title title="Minhas Habilidades" align="center"></Title>
         <AlignBar>
           <ProgressBar percent={80} item="Javascript"/>
@@ -74,7 +71,7 @@ export default function Home() {
           <ProgressBar percent={95} item="CSS3"/>
           <ProgressBar percent={60} item="Node js"/>
         </AlignBar>
-      </Back>
+      </Section>
 
       <Footer />
     </>

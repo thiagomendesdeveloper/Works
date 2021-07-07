@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: ${props => `${props.jcontent}`};
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -12,7 +12,7 @@ export const Container = styled.div`
 
     @media screen and (min-width:700px){
         flex-direction: ${props => `${props.direction}`};
-        justify-content: space-evenly
+        justify-content: space-evenly;
         
     }
 `

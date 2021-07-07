@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Background = styled.div`
+export const Section = styled.div`
     background:#1B1B1B;
     width:100%;
     height: auto;

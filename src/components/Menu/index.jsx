@@ -8,10 +8,10 @@ export default function header({children}){
     return (
         <Menu>
             <Ul>
-                <Link to='/teste'><Li>Home</Li></Link>
-                <Link to='/teste'><Li>Blog</Li></Link>
-                <Link to='/teste'><Li>Sobre</Li></Link>
-                <Link to='/teste'><Li>Contato</Li></Link>
+                <Link to='/'><Li>Home</Li></Link>
+                <Link to='#'><Li>Blog</Li></Link>
+                <Link to='#'><Li>Sobre</Li></Link>
+                <Link to='#'><Li>Contato</Li></Link>
             </Ul>
         </Menu>
     )

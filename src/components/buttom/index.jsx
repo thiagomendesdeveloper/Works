@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Buttom } from './style'
 
-export default function buttom(props){
+export default function buttom(){
     return(
-        <Link to={props.link}><Buttom>{props.text}</Buttom></Link>
+        <Link to="#"><Buttom>Saiba Mais</Buttom></Link>
     )
 }
