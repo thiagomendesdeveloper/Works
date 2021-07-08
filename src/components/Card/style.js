@@ -9,7 +9,7 @@ export const Card = styled.div`
     min-width: 200px;
     padding:10px;
     margin-top:5rem;
-    min-height:250px;
+    min-height:235px;
     min-width: 257px;
 
     a{

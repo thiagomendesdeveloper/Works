@@ -3,7 +3,7 @@ import React from 'react'
 import { BannerMain } from './style'
 import SmallButom from "../SmallButom"
 import Container from "../Container"
-import thumbfoto from "../../images/foto.jpg"
+import thumbfoto from "../../images/foto.jpeg"
 
 export default function bannerMain() {
     // const thumb = useStaticQuery(graphql`

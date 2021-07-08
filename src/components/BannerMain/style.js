@@ -41,6 +41,7 @@ export const BannerMain = styled.div`
     img{
         border-radius:50%;
         width:200px;
+        height: 200px;
         border: 3px solid #D918A5;
     }
 

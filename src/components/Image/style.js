@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Image= styled.div`
 
     img{
-        width: 100%;
-        height:auto;
+        width: 200px;
+        height:200px;
     }
 
     @media screen and (min-width:700px){

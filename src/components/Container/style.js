@@ -9,7 +9,6 @@ export const Container = styled.div`
     margin: auto;
     max-width: 1000px;
 
-
     @media screen and (min-width:700px){
         flex-direction: ${props => `${props.direction}`};
         justify-content: space-evenly;
