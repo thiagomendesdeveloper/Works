@@ -24,7 +24,7 @@ export const Menu = styled.div`
         span{
             display: block;
             font-size: 3em;
-            margin:25px 15px;
+            margin:10px 15px;
         }
     }    
 
@@ -40,14 +40,14 @@ export const Ul = styled.ul`
 
     @media screen and (max-width:700px){
         flex-direction: column;
-        display: ${props => `${props.display}`};
+        display: block;
         z-index: 99;
         position:absolute;
         top:0px;
-        left:0;
+        left:${props => `${props.display}`};
         width:100%;
         background: #2d2d2d;
-        transition: 3s ease-in-out;
+        transition: 300ms ease-in-out;
     }
 `
 
