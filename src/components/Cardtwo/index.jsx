@@ -1,9 +1,9 @@
 import React from 'react'
-import { Article } from './style'
+import { Cardtwo } from './style'
 
 export default function Card(props){
     return(
-        <Article>
+        <Cardtwo>
             <div>
                 <img src={props.thumb} />
                 <article>
@@ -12,6 +12,6 @@ export default function Card(props){
                     <p>{props.desc}</p>
                 </article>
             </div>
-        </Article>
+        </Cardtwo>
     )
 }

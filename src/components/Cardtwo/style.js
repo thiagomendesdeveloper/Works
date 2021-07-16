@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Article = styled.div`
+export const Cardtwo = styled.div`
     border:1px solid #E41F89;
     margin:20px;
     border-radius:5px;

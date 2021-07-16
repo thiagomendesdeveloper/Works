@@ -1,6 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
-import Article from "../Article"
+import Cardtwo from "../Cardtwo"
 
 export function Post(){
     const posts = useStaticQuery(graphql`
@@ -35,7 +35,7 @@ export function Post(){
     return(
         <>
             {posts.allMarkdownRemark.nodes.map( post => (
-                <Article key={post.id} title={post.frontmatter.title} thumb={post.frontmatter.thumb.childImageSharp.fluid.originalImg}
+                <Cardtwo key={post.id} title={post.frontmatter.title} thumb={post.frontmatter.thumb.childImageSharp.fluid.originalImg}
                  desc={post.frontmatter.description} />
             ) )}
         
