@@ -27,7 +27,7 @@ export default function bannerMain() {
       <Container>
         <BannerMain>
             {/* <img src={thumb.file.childImageSharp.fluid.srcWebp} alt="" /> */}
-            <img src={thumbfoto} alt="" />
+            <img src={thumbfoto} width="200" height="200" alt="" />
             <hgroup>
                 <h1>Desenvolvedor Web</h1>
                 <hr/>

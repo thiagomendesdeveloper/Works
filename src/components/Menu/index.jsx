@@ -20,7 +20,7 @@ export default function Header({children}){
             <Ul display={data ? `0%` : `-100%`}>
                 <span onClick={click}>X</span>
                 <Link to='/'><Li>Home</Li></Link>
-                <Link to='#'><Li>Blog</Li></Link>
+                <Link to='/blog'><Li>Blog</Li></Link>
                 <Link to='#'><Li>Sobre</Li></Link>
                 <Link to='#'><Li>Contato</Li></Link>
             </Ul>

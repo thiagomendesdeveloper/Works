@@ -33,6 +33,7 @@ module.exports = {
     },
     `gatsby-plugin-sharp`, //images
     `gatsby-transformer-sharp`, //images
+    `gatsby-plugin-netlify-cms`
   ],
     
 }
